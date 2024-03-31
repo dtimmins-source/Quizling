@@ -440,6 +440,7 @@ GameObject:
   - component: {fileID: 308499968}
   - component: {fileID: 308499967}
   - component: {fileID: 308499966}
+  - component: {fileID: 308499970}
   m_Layer: 5
   m_Name: QuizCanvas
   m_TagString: Untagged
@@ -530,6 +531,20 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &308499970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 308499965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ace4096ae9d86624899bde136d74ac5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questionText: {fileID: 468099741}
+  question: {fileID: 11400000, guid: b734fa282171a7948aefe2d53e24caa6, type: 2}
 --- !u!1 &468099739
 GameObject:
   m_ObjectHideFlags: 0
@@ -588,8 +603,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: If you kick a rooster in the butt, how many seconds does it take for the
-    rooster to question its worldview?
+  m_text: Nonsense noni noni boo banoni noni nani neeni weenie!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
