@@ -14,3 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   question: If you kick a rooster in butt, how many seconds does it take for it to
     question its worldview?
+  answers:
+  - 0
+  - 5
+  - 12
+  - 42
+  correctAnswerIndex: 3
