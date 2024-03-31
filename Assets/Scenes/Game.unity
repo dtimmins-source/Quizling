@@ -286,6 +286,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: AnswerButton (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8262293339505438742, guid: 1c21b1da6ce12c342981183c87d53ba8, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 2a87cf9e213fd91458b14a749fc5617e, type: 3}
+    - target: {fileID: 8262293339505438743, guid: 1c21b1da6ce12c342981183c87d53ba8, type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8262293339505438743, guid: 1c21b1da6ce12c342981183c87d53ba8, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 3
@@ -890,6 +898,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: AnswerButton (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8262293339505438742, guid: 1c21b1da6ce12c342981183c87d53ba8, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 2a87cf9e213fd91458b14a749fc5617e, type: 3}
+    - target: {fileID: 8262293339505438743, guid: 1c21b1da6ce12c342981183c87d53ba8, type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8262293339505438743, guid: 1c21b1da6ce12c342981183c87d53ba8, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 3
@@ -1101,6 +1117,14 @@ PrefabInstance:
     - target: {fileID: 8262293339505438741, guid: 1c21b1da6ce12c342981183c87d53ba8, type: 3}
       propertyPath: m_Name
       value: AnswerButton (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8262293339505438742, guid: 1c21b1da6ce12c342981183c87d53ba8, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 2a87cf9e213fd91458b14a749fc5617e, type: 3}
+    - target: {fileID: 8262293339505438743, guid: 1c21b1da6ce12c342981183c87d53ba8, type: 3}
+      propertyPath: m_Interactable
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8262293339505438743, guid: 1c21b1da6ce12c342981183c87d53ba8, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
@@ -1588,6 +1612,14 @@ PrefabInstance:
     - target: {fileID: 8262293339505438741, guid: 1c21b1da6ce12c342981183c87d53ba8, type: 3}
       propertyPath: m_Name
       value: AnswerButton (0)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8262293339505438742, guid: 1c21b1da6ce12c342981183c87d53ba8, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 2a87cf9e213fd91458b14a749fc5617e, type: 3}
+    - target: {fileID: 8262293339505438743, guid: 1c21b1da6ce12c342981183c87d53ba8, type: 3}
+      propertyPath: m_Interactable
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8262293339505438743, guid: 1c21b1da6ce12c342981183c87d53ba8, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target

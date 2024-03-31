@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eaa09188ffa72bf4596c9727df78231b, type: 3}
   m_Name: Question 1
   m_EditorClassIdentifier: 
-  question: If you kick a rooster in butt, how many seconds does it take for it to
-    question its worldview?
+  question: If you kick a rooster in the butt, how many seconds does it take for
+    it to question its worldview?
   answers:
   - 0
   - 5
