@@ -9,6 +9,9 @@ public class Quiz : MonoBehaviour
     [SerializeField]TextMeshProUGUI questionText;
     [SerializeField] QuestionSO question;
     [SerializeField] GameObject[] answerButtons;
+    int correctAnswerIndex;
+    [SerializeField] Sprite defaultAnswerSprite;
+    [SerializeField] Sprite correctAnswerSprite;
     
     void Start()
     {
@@ -20,5 +23,21 @@ public class Quiz : MonoBehaviour
 
             buttonText.text = question.GetAnswer(i);
         }   
+    }
+
+    public void OnAnswerSelected(int index)
+    {
+            correctAnswerIndex = question.GetCorrectAnswerIndex();
+            if(index == correctAnswerIndex)
+            {
+                questionText.text = "Correct!";
+            }
+            else
+            {
+                string correctAnswer = question.GetAnswer(correctAnswerIndex);
+                questionText.text = "Incorrect! The correct answer is:\n" + correctAnswer;
+            }
+            Image buttonImage = answerButtons[correctAnswerIndex].GetComponent<Image>();
+            buttonImage.sprite = correctAnswerSprite;
     }
 }
