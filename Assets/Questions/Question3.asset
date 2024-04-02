@@ -14,3 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   question: If you have a pizza, and someone gives you a second pizza, what do you
     have?
+  answers:
+  - Heartburn.
+  - Enough pizza.
+  - 2 pizzas.
+  - Full hands...hot...hot.
+  correctAnswerIndex: 1

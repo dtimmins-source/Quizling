@@ -13,3 +13,9 @@ MonoBehaviour:
   m_Name: Question5
   m_EditorClassIdentifier: 
   question: What kind of bird are you?
+  answers:
+  - A robin.
+  - A raven.
+  - A swallow.
+  - An ostritch.
+  correctAnswerIndex: 2

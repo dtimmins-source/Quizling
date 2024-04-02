@@ -13,3 +13,9 @@ MonoBehaviour:
   m_Name: Question4
   m_EditorClassIdentifier: 
   question: '"The Turkey Vulture Incident" refers to what?'
+  answers:
+  - An incident involving a turkey vulture.
+  - A not even a little famous high school band.
+  - The loss of virginity of one sad dude.
+  - That's classified.
+  correctAnswerIndex: 3
