@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eaa09188ffa72bf4596c9727df78231b, type: 3}
-  m_Name: Question2
+  m_Name: Question6
   m_EditorClassIdentifier: 
-  question: What came first, the chicken or the egg?
+  question: What kind of nonsense clutters the brains of CEOs?
   answers:
-  - The chicken.
-  - The egg.
-  - Dinosaurs laid eggs long before chickens.
-  - The ham sandwhich.
-  correctAnswerIndex: 2
+  - Farts.
+  - True and useful facts.
+  - Really good ideas.
+  - B and C.
+  correctAnswerIndex: 0
